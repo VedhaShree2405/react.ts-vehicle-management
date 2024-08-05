@@ -1,5 +1,7 @@
+*{
+    font-family: "Arial", sans-serif;
+}
 .home-page {
-  font-family: "Arial", sans-serif;
   background-color: #eaeaea;
   color: #071531e0;
 }

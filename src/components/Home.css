@@ -93,7 +93,7 @@
 .brand-list {
   list-style: none;
   display: flex;
-  margin: 10px;
+  margin:auto;
   gap: 10px;
   flex-wrap: wrap;
 }

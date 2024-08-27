@@ -1,5 +1,5 @@
-*{
-    font-family: "Arial", sans-serif;
+* {
+  font-family: "Arial", sans-serif;
 }
 .home-page {
   background-color: #eaeaea;
@@ -95,7 +95,7 @@
 .brand-list {
   list-style: none;
   display: flex;
-  margin:auto;
+  margin: auto;
   gap: 10px;
   flex-wrap: wrap;
 }
@@ -131,4 +131,46 @@
 
 .brand-list a:hover {
   text-decoration: underline;
+}
+
+/* Media Queries for Mobile Phones */
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav-items {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .brand-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand-list li {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .brand-list img {
+    width: 100%;
+    height: auto;
+  }
 }

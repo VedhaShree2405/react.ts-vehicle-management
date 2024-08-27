@@ -1,5 +1,5 @@
-*{
-    font-family: Arial, sans-serif;
+* {
+  font-family: Arial, sans-serif;
 }
 body {
   margin: 0;
@@ -57,4 +57,32 @@ body {
 
 .car-list .car-info div button {
   margin-right: 10px;
+}
+
+/* Media Queries for Mobile Phones */
+@media only screen and (max-width: 768px) {
+  .car-list {
+    padding: 10px;
+  }
+
+  .car-list li {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .car-list img {
+    width: 100%;
+    height: auto;
+  }
+
+  .car-list .car-info {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .car-list .car-info button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
 }

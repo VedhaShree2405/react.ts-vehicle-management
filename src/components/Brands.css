@@ -15,7 +15,6 @@ body {
   flex-direction: column;
   align-items: center;
   max-height: 100vh;
-  overflow-y: auto;
 }
 
 .car-list ul {
